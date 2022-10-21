@@ -39,6 +39,14 @@
 
 - Configure  JavaScript SPA
 - Create a file named `authConfig.js` in the `app` folder to contain your configuration parameters for authentication
+  ```
+  // 'Application (client) ID' of app registration in Azure portal - this value is a GUID
+  clientId: "Enter_the_Application_Id_Here",
+  // Full directory URL, in the form of https://login.microsoftonline.com/<tenant-id>
+  authority: "Enter_the_Cloud_Instance_Id_HereEnter_the_Tenant_Info_Here",
+  // Full redirect URL, in form of http://localhost:3000
+  redirectUri: "Enter_the_Redirect_Uri_Here",
+  ```
 
 - Create a file named `graphConfig.js` in the `app` folder to provide your application the configuration parameters for calling the Microsoft Graph API
 
